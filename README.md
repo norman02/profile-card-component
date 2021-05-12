@@ -1,2 +1,2 @@
 # profile-card-component
-Profile CArd
+Profile Card
