@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -50,5 +51,95 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #19A1AE 0% 0% no-repeat padding-box;
+}
+
+main h1, main h2 {
+  color: #2E3349;
+}
+
+main p {
+  color: #6B7082;
+}
+
+.card {
+  width: 86.9%;
+  max-width: 31.25rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 3.125rem 6.25rem #08465E81;
+  border-radius: 0.9375rem;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card_header_bg {
+  max-width: 100%;
+  height: 8.75rem;
+  background: url("../img/bg-pattern-card.svg");
+}
+
+.card_header img {
+  margin-top: -3rem;
+  border: 5px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.card_bio h1 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-top: 1.5rem;
+  line-height: 1.1875rem;
+}
+
+.card_bio h1 .age {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #6B7082;
+}
+
+.card_bio .location {
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 0.9375rem;
+  margin-top: 0.75rem;
+}
+
+.card_stats {
+  margin-top: 2rem;
+  border-top: 1px solid #E8E9EC;
+}
+
+.card_stats ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2.8125rem 1.625rem 2.8125rem;
+}
+
+.card_stats ul h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 1.1875rem;
+}
+
+.card_stats ul p {
+  font-size: 0.625rem;
+  font-weight: 400;
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 0.6875rem;
+  letter-spacing: 0.09375rem;
+  margin-top: 0.5rem;
 }
 /*# sourceMappingURL=main.css.map */
