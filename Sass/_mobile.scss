@@ -23,7 +23,7 @@ main {
 }
 
 .card {
-    width: 86.9%;
+    width: toRem(350);
     max-width: toRem(500);
     background: $card-bg-color 0% 0% no-repeat padding-box;
     box-shadow: toRem(0) toRem(50) toRem(100) $shadow-color;

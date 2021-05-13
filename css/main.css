@@ -78,7 +78,7 @@ main p {
 }
 
 .card {
-  width: 86.9%;
+  width: 21.875rem;
   max-width: 31.25rem;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0rem 3.125rem 6.25rem #08465E81;
@@ -148,5 +148,11 @@ main p {
   line-height: 0.6875rem;
   letter-spacing: 0.09375rem;
   margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-position: top -39.9375rem left -75%, bottom -39.9375rem right -75%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
