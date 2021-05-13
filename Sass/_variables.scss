@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+$very-dark-blue: #08465E81;
+$dark-blue: #2E3349;
+$dark-sea:#19A1AE;
+$light-gray: #6B7082;
+$white: #FFFFFF;
+$off-white: #E8E9EC;
+
+
+$main-bg-color: $dark-sea;
+$card-bg-color: $white;
+$shadow-color: $very-dark-blue;
+$bold-text-color: $dark-blue;
+$text-color: $light-gray;
+
+@function toRem($pix) {
+    $rem: ($pix/16) + rem;
+    @return $rem;
+}
+
+@mixin font ($size, $weight) {
+    font-size: toRem($size);
+    font-weight: $weight;
+    font-family: 'Kumbh Sans', sans-serif;
+}
