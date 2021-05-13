@@ -27,14 +27,21 @@ $text-color: $light-gray;
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+    background-color: $main-bg-color;
+    background-image: url("../img/bg-pattern-top.svg"), url('../img/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: top -639px left -639px, bottom -639px right -639px;
+    background-position: top toRem(-639) left toRem(-639), bottom toRem(-639) right toRem(-639);
+}
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: $main-bg-color 0% 0% no-repeat padding-box;
-
+    
     h1, h2 {
         color: $bold-text-color;
     }
